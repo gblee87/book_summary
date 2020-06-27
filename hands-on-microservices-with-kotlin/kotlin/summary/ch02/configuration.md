@@ -11,6 +11,12 @@
 * 스프링 표현식 언어(SpEL-Spring Expression Language)
 
 
+## 참고사항
+- 환경 구성은 개발자의 개발환경에 따라 다르므로 여기서는 Mac, Windows 순으로 JDK, Maven, Intellij 설치를 설명합니다.
+- SpringInitializer 이후 부분은 공통적으로 적용되는 부분이므로 Mac Windows를 구분하지 않습니다.
+- [Mac 환경 설정 링크](#Mac)
+- [Windows 환경 설정 링크](#Windows)
+
 
 ## Mac
 
@@ -94,11 +100,15 @@ Intellij를 설치하는 방법으로는 여러가지가 있지만 개인적으�
 
 
 
-### Spring-Initializer 로 샘플 프로젝트 생성
+### Spring-Initializer 로 샘플 프로젝트 생성 
 
-graph를 구성하고 나면 `Session` 오브젝트를 만들어서 graph를 실행할 수 있습니다. op 생성함수에서 다른 graph를 지정해줄 때까지는 default graph가 `Session`에서 실행됩니다. 관련 내용은 [Session class](../api_docs/python/client.md#session-management)에서 확인할 수 있습니다.
+Springboot 어플리케이션을 템플릿처럼 생성가능한 Spring-Initializer라는 사이트가 있습니다.
+
+해당 사이트를 활용해 샘플 프로젝트를 만들고 Intellij에 해당
 
 
 
 ## Windows
+
+
 
