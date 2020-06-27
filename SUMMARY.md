@@ -14,7 +14,7 @@
         * [클라우드 네이티브 마이크로 서비스](g3doc/tutorials/mnist/download/index.md)
     * 2장 스프링 부트 2.0 시작하기
         * [스프링 부트 애플리케이션 만들기](g3doc/tutorials/tflearn/index.md)
-          * [구성](kotlin/summary/ch02/configuration.md)
+          * [구성](hands-on-microservices-with-kotlin/kotlin/summary/ch02/configuration.md)
         * [스프링 부트 애플리케이션 구조](g3doc/tutorials/linear/overview.md)
         * [스프링 부트 애플리케이션 패키징 및 실행](g3doc/tutorials/wide/index.md)
         * [애플리케이션 설정](g3doc/tutorials/wide_and_deep/index.md)
