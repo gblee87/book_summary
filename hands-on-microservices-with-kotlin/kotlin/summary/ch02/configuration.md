@@ -130,7 +130,7 @@ Springboot 어플리케이션을 템플릿처럼 생성가능한 Spring-Initiali
   - Packaging: Jar
   - Java: 8
 
-- 하단의 generate 버튼 <img src="../../images/spring-initializer-02.PNG" width="20%" height="20%">을 눌러 생성된 샘플 파일을 다운 받습니다.
+- 하단의 generate 버튼 ( <img src="../../images/spring-initializer-02.PNG" width="10%" height="10%"> )을 눌러 생성된 샘플 파일을 다운 받습니다.
 
   
 
