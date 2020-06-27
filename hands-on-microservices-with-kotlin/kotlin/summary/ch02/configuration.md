@@ -86,11 +86,11 @@ Intellij를 설치하는 방법으로는 여러가지가 있지만 개인적으�
 
 아래와 같이 원하는 솔루션 설치를 할 수 있습니다.
 
-![Toolbox][https://github.com/gblee87/book_summary/blob/master/hands-on-microservices-with-kotlin/kotlin/images/jetbrain-toolbox-01.PNG]
+![Toolbox][../../images/jetbrain-toolbox-01.PNG]
 
 프로젝트 생성시 Toolbox에서 통합관리 가능합니다.
 
-![Toolbox][https://github.com/gblee87/book_summary/blob/master/hands-on-microservices-with-kotlin/kotlin/images/jetbrain-toolbox-02.PNG]
+![Toolbox][../../images/jetbrain-toolbox-02.PNG]
 
 
 
