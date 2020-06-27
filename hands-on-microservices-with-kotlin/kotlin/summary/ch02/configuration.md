@@ -86,12 +86,12 @@ Intellij를 설치하는 방법으로는 여러가지가 있지만 개인적으�
 
 아래와 같이 원하는 솔루션 설치를 할 수 있습니다.
 
-![Toolbox](../../images/jetbrain-toolbox-01.PNG){: width="20" height="20"}
-<img src="../../images/jetbrain-toolbox-01.PNG" width="20%" height="20%" >
+<img src="../../images/jetbrain-toolbox-01.PNG" width="30%" height="30%" >
 
 프로젝트 생성시 Toolbox에서 통합관리 가능합니다.
 
 ![Toolbox](../../images/jetbrain-toolbox-02.PNG){: width="50" height="50"}
+<img src="../../images/jetbrain-toolbox-01.PNG" width="40%" height="40%" >
 
 
 
