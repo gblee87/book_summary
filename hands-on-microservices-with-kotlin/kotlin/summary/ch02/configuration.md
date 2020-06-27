@@ -11,11 +11,14 @@
 * 스프링 표현식 언어(SpEL-Spring Expression Language)
 
 
-## 참고사항
+
+## 참고사항--테스트
+
 - 환경 구성은 개발자의 개발환경에 따라 다르므로 여기서는 Mac, Windows 순으로 JDK, Maven, Intellij 설치를 설명합니다.
 - SpringInitializer 이후 부분은 공통적으로 적용되는 부분이므로 Mac Windows를 구분하지 않습니다.
 - [Mac 환경 설정 링크](#Mac)
 - [Windows 환경 설정 링크](#Windows)
+
 
 
 ## Mac
