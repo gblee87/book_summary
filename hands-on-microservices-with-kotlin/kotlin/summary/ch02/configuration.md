@@ -85,12 +85,9 @@ Intellij를 설치하는 방법으로는 여러가지가 있지만 개인적으�
 해당 어플리케이션을 이용하면 본인의 프로젝트 확인 및 IDEA 업데이트를 손쉽게 할 수 있고 다른 Jetbrain사의 프로그램을 한번에 활용할 수 있습니다.
 
 아래와 같이 원하는 솔루션 설치를 할 수 있습니다.
-
 <img src="../../images/jetbrain-toolbox-01.PNG" width="30%" height="30%" >
 
 프로젝트 생성시 Toolbox에서 통합관리 가능합니다.
-
-![Toolbox](../../images/jetbrain-toolbox-02.PNG){: width="50" height="50"}
 <img src="../../images/jetbrain-toolbox-01.PNG" width="40%" height="40%" >
 
 
