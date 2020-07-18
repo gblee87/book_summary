@@ -11,3 +11,4 @@ Summary 책 종류는 아래와 같습니다.
   - 깃북의 주소는 https://app.gitbook.com/@gbl-book-summary/s/book-summary/ 입니다.
 
 감사합니다.
+
