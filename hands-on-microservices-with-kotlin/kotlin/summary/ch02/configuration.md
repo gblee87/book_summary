@@ -50,8 +50,6 @@ brew install maven
 brew install intellij-idea-ce
 ```
 
-
-
 프로파일에 설정한다.
 
 ```bash
@@ -87,7 +85,7 @@ brew install intellij-idea-ce
 
 
 
-(사견 입니다.)
+(사견)
 
 Intellij를 설치하는 방법으로는 여러가지가 있지만 개인적으로는 Jetbrain (Intellij 만든 회사)홈페이지에서 ToolBox 어플리케이션을 이용해 설치하는 것을 추천합니다.
 
@@ -129,11 +127,11 @@ Intellij를 설치하는 방법으로는 여러가지가 있지만 개인적으�
 
 ### Spring-Initializer 로 샘플 프로젝트 생성 
 
-Springboot 어플리케이션을 템플릿처럼 생성가능한 Spring-Initializer라는 사이트가 있습니다.
+Springboot 어플리케이션을 템플릿처럼 생성가능한 Spring-Initializer라는 사이트가 있다.
 
-해당 사이트를 활용해 샘플 프로젝트를 생성-> Zip파일로 다운로드 -> 프로젝트로 Import 하는 순서로 진행합니다.
+해당 사이트를 활용해 샘플 프로젝트를 생성-> Zip파일로 다운로드 -> 프로젝트로 Import 하는 순서로 진행한다.
 
-- 브라우저에서 https://start.spring.io 로 이동합니다.
+- 브라우저에서 https://start.spring.io 로 이동한다.
 
   <br>
   <img src="../../images/spring-initializer-01.PNG" width="70%" height="40%" >
@@ -147,9 +145,10 @@ Springboot 어플리케이션을 템플릿처럼 생성가능한 Spring-Initiali
   - Packaging: Jar
   - Java: 8
 
-- 하단의 generate 버튼 ( <img src="../../images/spring-initializer-02.PNG" width="15%" height="15%"> )을 눌러 생성된 샘플 파일을 다운 받습니다.
+- 하단의 generate 버튼 ( <img src="../../images/spring-initializer-02.PNG" width="15%" height="15%"> )을 눌러 생성된 샘플 파일을 다운 받는다.
 
-- 
+  
+
 
 ### 생성된 프로젝트 파일 검토
 - 파일 압축을 해제하면 아래와 같은 파일을 트리형태로 확인할 수 있다.
@@ -328,9 +327,13 @@ mvn compile
   }
   ```
 
-  - 교제에서는 value="스트링" 형태로 구성했지만, IDEA에서 오류가 표기되어 ["/user"] 형태로 바꾸니 정상 동작했다.
+  - 교재에서는 value="스트링" 형태로 구성했지만, IDEA에서 오류가 표기되어 ["/user"] 형태로 바꾸니 정상 동작했다.
+
   - (사견: RequestMapping에서 GET을 쓰는 방식도 있지만, GetMapping을 사용하면 좀 더 명확하게 의도를 표현할 수 있음)
+
   - 해당 요청은 localhost:8080/user 로 요청이 들어오면 hello world를 리턴하도록 구성한다.
+
+    
 
 - 프로젝트 창의 패키지에서 마우스 오른쪽 클릭 -> New -> Kotlin File / Class를 클릭해 새로운 클래스 생성
 
