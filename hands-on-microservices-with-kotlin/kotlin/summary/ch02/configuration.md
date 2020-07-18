@@ -257,7 +257,7 @@ mvn compile
 
 - 메이븐은 플러그인 개념을 지원, 플러그인은 목표를 사용해 특정단계에 연결됨
 	<br>
-	<img src="../../images/maven-lifecycle.png" width="35%" height="35%" >
+	<img src="../../images/maven-lifecycle.png" width="50%" height="50%" >
 - ex) mvn kotlin:goal
 
   - mvn : 메이븐 실행 명령어 (또는 mvnw)
@@ -314,10 +314,75 @@ mvn compile
 
 #### 마이크로서비스 수정
 
-- 
+- Chapter2Application.kt 파일을 수정
+
+- 간단한 hello world를 리턴하는 코드를 입력한다.
+
+  ```java
+  @Controller
+  class FirstController {
+    @RequestMapping(value= ["/user"], method = arrayOf(RequestMethod.GET))
+  	// @GetMapping("/user")
+  	@ResponseBody
+  	fun hello() = "hello world"
+  }
+  ```
+
+  - 교제에서는 value="스트링" 형태로 구성했지만, IDEA에서 오류가 표기되어 ["/user"] 형태로 바꾸니 정상 동작했다.
+  - (사견: RequestMapping에서 GET을 쓰는 방식도 있지만, GetMapping을 사용하면 좀 더 명확하게 의도를 표현할 수 있음)
+  - 해당 요청은 localhost:8080/user 로 요청이 들어오면 hello world를 리턴하도록 구성한다.
+
+- 프로젝트 창의 패키지에서 마우스 오른쪽 클릭 -> New -> Kotlin File / Class를 클릭해 새로운 클래스 생성
+
+  - Name: ExampleService
+
+  - Kind: Class
+
+  - ExampleService.kt
+
+    ```java
+    @Service
+    class ExampleService {
+        fun getHello(name : String) = "hello $name" 
+    }
+    ```
+
+    - 'hello 이름' 형태를 출력하는 함수를 가진 클래스이다.
+
+- 컨트롤러에 서비스를 연결한다.
+
+  ```java
+  @Controller
+  class FirstController(val exampleService: ExampleService){
+    @RequestMapping(value= ["/user/{name}"], method = arrayOf(RequestMethod.GET))
+  	// @GetMapping("/user/{name}")
+  	@ResponseBody
+  	fun hello(@PathVariable name: String) = exampleService.getHello(name)
+  }
+  ```
+
+  - exampleService 인스턴스를 컨트롤러의 속성으로 설정한다.
+  - 서비스를 수행하고 http://localhost:8080/user/Kotlin 이라고 요청하면 hello Kotlin이라는 리턴 결과를 확인할 수 있다.
 
 #### 디버깅
+
+- 인텔리제이에서 디버깅 옵션을 제공하며 Break Point를 설정하고 상단의 벌레모양 아이콘을 클릭하면 디버깅 모드로 동작한다.
+
 #### 팁과 트릭
+
+- 액션실행
+  - 맥: Shift + Cmd + a
+  - 윈도우: Shift + Ctrl + a
+- 어디서나 검색
+  - Shift 버튼 두번 클릭
+- 클릭보드에서 붙여넣기
+  - 맥: Shift + Cmd + v
+  - 윈도우: Shift + Ctrl + v
+- 반복 및 빠른 수정
+  - Alt + Enter
+- 이름 바꾸기
+  - Shift + F6
+- 좀 더 자세한 방법은 https://youtu.be/eq3KiAH4IBI
 
 
 
